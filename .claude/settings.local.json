@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sqlite3:*)",
+      "Bash(curl:*)",
+      "Bash(where sqlite3:*)",
+      "Bash(python.exe -c \"import sqlite3; print\\(sqlite3.sqlite_version\\)\")",
+      "Bash(cmd.exe /c \"python --version 2>&1\")",
+      "Skill(commit-commands:commit)"
+    ]
+  }
+}

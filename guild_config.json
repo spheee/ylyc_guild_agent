@@ -1,0 +1,123 @@
+{
+  "_comment": "雨落烟尘-robot 公会配置文件。所有标注 TODO 的字段需要管理员填写后生效。",
+
+  "guild": {
+    "name": "雨落烟尘",
+    "server": "血色十字军",
+    "region": "CN",
+    "faction": "部落",
+    "game_version": "12.0 至暗之夜",
+    "guild_master": "TODO: 会长角色名",
+    "founded": "TODO: 公会成立时间，如 2020-01-01",
+    "description": "TODO: 公会简介（可留空）"
+  },
+
+  "raid_schedule": {
+    "days": ["Monday", "Tuesday", "Thursday"],
+    "days_cn": ["周一", "周二", "周四"],
+    "start_time": "20:00",
+    "end_time": "23:00",
+    "timezone": "Asia/Shanghai",
+    "notes": "如遇节假日或特殊情况由团长在群内通知"
+  },
+
+  "teams": [
+    {
+      "id": "team_1",
+      "name": "一团",
+      "leader": "TODO: 一团团长角色名",
+      "leader_qq": "TODO: 一团团长QQ号",
+      "current_raid": "虚影尖塔",
+      "current_difficulty": "TODO: N / H / M",
+      "current_progress": "TODO: 当前进度，如 3/6",
+      "roster_size": 20,
+      "focus": "TODO: 定位描述，如 开荒向 / 休闲向",
+      "notes": ""
+    },
+    {
+      "id": "team_2",
+      "name": "二团",
+      "leader": "TODO: 二团团长角色名",
+      "leader_qq": "TODO: 二团团长QQ号",
+      "current_raid": "虚影尖塔",
+      "current_difficulty": "TODO: N / H / M",
+      "current_progress": "TODO: 当前进度，如 1/6",
+      "roster_size": 20,
+      "focus": "TODO: 定位描述，如 休闲向 / 新人友好",
+      "notes": ""
+    }
+  ],
+
+  "guild_rules": {
+    "join_requirements": {
+      "min_item_level": 0,
+      "required_addons": ["DBM 或 BigWigs", "WeakAuras"],
+      "preferred_addons": ["Details!", "VuhDo 或 Grid2（治疗）"],
+      "notes": "TODO: 填写入会要求，如'无需申请，联系会长即可'"
+    },
+    "loot_system": {
+      "type": "TODO: 分装方式（需求/贪婪 / 主从取用 / EPGP / DKP / 自由Roll / 竞拍）",
+      "description": "TODO: 详细说明分装规则",
+      "priority_rules": [
+        "TODO: 如 主修 > 副修 > 套装外借",
+        "TODO: 如 出勤率高者优先"
+      ]
+    },
+    "attendance": {
+      "absence_notice_required": true,
+      "late_notice_required": true,
+      "notice_deadline_minutes": 30,
+      "min_attendance_percent": 0,
+      "notes": "TODO: 请假规定，如'活动前30分钟群内报备'"
+    },
+    "conduct": [
+      "不使用外挂辅助程序",
+      "团本期间保持专注，减少无关聊天",
+      "听从团长和管理员指令",
+      "保持公会内部和谐，禁止人身攻击和地图炮",
+      "TODO: 可添加公会特有规定"
+    ]
+  },
+
+  "contacts": [
+    {
+      "role": "会长",
+      "character_name": "TODO: 会长角色名",
+      "qq": "TODO: 会长QQ",
+      "public": true
+    },
+    {
+      "role": "一团团长",
+      "character_name": "TODO: 一团团长角色名",
+      "qq": "TODO: 一团团长QQ",
+      "public": true
+    },
+    {
+      "role": "二团团长",
+      "character_name": "TODO: 二团团长角色名",
+      "qq": "TODO: 二团团长QQ",
+      "public": true
+    },
+    {
+      "role": "管理员",
+      "character_name": "TODO: 管理员角色名（可多人，复制此条目）",
+      "qq": "TODO: 管理员QQ",
+      "public": false
+    }
+  ],
+
+  "bot_config": {
+    "admin_qq_ids": ["TODO: 管理员QQ号，如 123456789", "TODO: 可以填多个"],
+    "response_max_length": 500,
+    "cooldown_seconds": 1,
+    "signup_window_days": 1,
+    "signup_reminder_hours_before": 1,
+    "language": "zh-CN"
+  },
+
+  "qq_group": {
+    "main_group_id": "TODO: 主QQ群号",
+    "officer_group_id": "TODO: 管理群群号（可留空）",
+    "invite_keyword": "TODO: 申请入群验证关键词（可留空）"
+  }
+}
